@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+
+// import ClockClass from './examples/ClockClass.js'
+// import ClockFunc from './examples/ClockFunc'
+// import CounterFunc from './examples/CounterFunc'
+import VaultFunc from './examples/VaultFunc'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ClockFunc></ClockFunc> */}
+      {/* <ClockClass></ClockClass> */}
+      {/* <CounterFunc></CounterFunc> */}
+      <VaultFunc />
     </div>
   );
 }
